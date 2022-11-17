@@ -36,9 +36,18 @@ body {
   height: 100vh;
 }
 
-
-
-
+main {
+  display: flex;
+  margin: auto;
+  flex-basis: 50%;
+  background-color: white;
+  border-radius: 15px;
+  background-image: url(images/bg-pattern-card.svg);
+  background-repeat: repeat-x;
+  background-position-y: -300px;
+  background-size: cover;
+  
+}
 footer {
   position: absolute;
   bottom: 15px;
