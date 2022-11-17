@@ -27,7 +27,7 @@ body {
   overflow: hidden;
 }
 
-.container {
+.main-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +52,9 @@ main {
 
 img {
   height: 200px;
-  clip-path: circle(100px at center);
+  border-radius: 50%;
+  border: 20px solid white;
+  
 }
 
 footer {
