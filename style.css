@@ -25,23 +25,22 @@ body {
   background-position-y: -300%;
   background-attachment: scroll;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  height: 100vh;
+  
 }
 
 main {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: auto;
-  flex-basis: 50%;
+  
+  
   background-color: white;
   border-radius: 15px;
   background-image: url(images/bg-pattern-card.svg);
@@ -52,30 +51,30 @@ main {
 }
 .stats {
   display: flex;
-  flex: 1;
   border-top: 1px solid rgba(128, 128, 128, 0.228);
-  align-items: center;
+ 
  
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .name-age-cont {
   display: flex;
+  
+
+  
 }
 
 .photos,
 .likes,
 .follower {
   display: flex;
-  flex-basis: 30%;
-  justify-content: center;
-  align-items: center;
+  
+
 }
 
 img {
