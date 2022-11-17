@@ -48,6 +48,13 @@ main {
   background-size: cover;
   
 }
+
+
+img {
+  height: 200px;
+  clip-path: circle(100px at center);
+}
+
 footer {
   position: absolute;
   bottom: 15px;
